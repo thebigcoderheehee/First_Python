@@ -10,6 +10,8 @@ num2 = int(input("Give me another number."))
 
 if num1 > num2:
     print("The first number is bigger.")
+elif num1 == num2:
+    print("Your numbers match.")
 else:
     print("You're too low.")
 

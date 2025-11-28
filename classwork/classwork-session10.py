@@ -2,6 +2,8 @@ dictionary1 = {"name":"Fateh"}
 
 scores = {"Fateh":21, "Zara":10}
 
+scores["MaDdy"] = "100"
+
 print(scores, "out of 20")
 
 # print(len(scores))

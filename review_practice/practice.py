@@ -193,3 +193,73 @@
 #     else:
 #         print("Keep Going!")
 #         number += usernumber
+
+# if number = 12, 14, 16, then continue
+# if number = 19 or 21, then break
+
+# for i in range(2, 25):
+#     if i == 12:
+#         continue
+#     if i == 19:
+#         break
+#     print(i)
+
+
+# def sayhello(n):
+#     for i in range(n):
+#         print("Hello")
+# n = int(input("Give me a number."))
+# sayhello(n)
+
+
+# a = int(input("Give me a number"))
+# b = int(input("Give me another number"))
+# c = int(input("Give me a third number"))
+# def biggest(a, b, c):
+#     if a >= b and a >= c:
+#         print(a)
+#     elif b >= a and b >= c:
+#         print(b)
+#     else:
+#         print(c)
+# biggest(a, b, c)
+
+
+# def is_prime(n):
+#     if n < 2:
+#         return "It is not prime!"
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return "It is not prime!"
+#     return "It is prime!"
+
+# n = int(input("Give me a number"))
+# print(is_prime(n))
+
+
+# user_password = input("Give me a password")
+# def check_password(user_password):
+#     if len(user_password) >= 8:
+#         return "Strong Password"
+#     else:
+#         return "Weak Password"
+# print(check_password(user_password))
+
+# check_password(user_password)
+
+
+# numbers = []
+# for i in range(5):
+#     num = int(input("Enter a number!"))
+#     numbers.append(num)
+# print(numbers)
+# print("The biggest number is:", max(numbers))
+# print("The smallest number is:", min(numbers))
+# print("The sum of all your numbers is:", sum(numbers))
+
+# words = ["apple", "banana", "cat", "dog"]
+# print(words)
+# reversed_word = []
+# for word in reversed(words):
+#     reversed_word.append(word)
+# print("Your words backwards are:", reversed_word)
